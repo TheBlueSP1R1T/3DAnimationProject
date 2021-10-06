@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: blue">
+      
+      <a-camera position="-.5 3 35"></a-camera>
+
+      <a-sound src="src: url(yeGM.mp3)" autoplay="true" volume="11" position="0 -21 -23"></a-sound>
+      
+      <a-assets>
+        <a-asset-item id="GradBear" src="GradBear.gltf"></a-asset-item>
+        <a-asset-item id="greekTemple1" src="greekTemple1.gltf"></a-asset-item>
+        <a-asset-item id="eye" src="eye.gltf"></a-asset-item>
+        <a-asset-item id="trees" src="trees.gltf"></a-asset-item>
+        <a-asset-item id="gradCap2" src="gradCap2.gltf"></a-asset-item>
+      </a-assets>
+
+      
+      <a-gltf-model scale="2 2 2" rotation="45 30 0" position="8.1 7.5 8" src="#GradBear"></a-gltf-model>
+      <a-gltf-model scale=".016 .016 .016" rotation="-10.3 -53 13.3" position="-1.5 -5.15 -28" src="#greekTemple1"></a-gltf-model>
+      <a-gltf-model scale=".05 .05 .05" rotation="-30 75 -33" position="17 -17.5 -8.3" src="#eye"></a-gltf-model>
+      <a-gltf-model scale="1.5 1.5 1.5" rotation="-60 100 0" position="-12.6 -11 -20" src="#trees"></a-gltf-model>
+      <a-gltf-model scale="1.5 1.5 1.5" rotation="60 -100 0" position="-13.4 -16 -20" src="#trees"></a-gltf-model>
+      <a-gltf-model scale="2 2 1.5" rotation="-70 38 0" position="-8.5 -16.7 -35.5" src="#trees"></a-gltf-model>
+      <a-gltf-model scale=".4 .4 .4" rotation="0 130 50" position="1.7 3.9 -26.6" src="#gradCap2"></a-gltf-model>
+
+
+      <a-sphere color="#FF4200" radius="3.8" position="-.1 -11 -8.7"></a-sphere>s
+      <a-sphere color="#FF7200" radius="4.6" position="0 -13.5 -10.0"></a-sphere>
+      <a-sphere color="#CD2036" radius="6.9" position="0.2 -17.5 -11.4"></a-sphere>
+      <a-cone color="#CD2036" scale="1 15 1" position="1.9 -6 -4.2" rotation="45 25 0" radius-bottom="3.7" radius-top=".4"></a-cone>
+      <a-cone color="#FFF600" scale="1 7.4 1" position="3.8 -1.6 -0.2" rotation="45 25 0" radius-bottom="1" radius-top=".1"></a-cone>
+      <a-ring color="#230297" position="3.7 -1.9 -.6" rotation="-40 25 0" radius-inner="1.5" radius-outer="2"></a-ring>
+      <a-ring color="#F2FACE" position="4.8 0 1.5" rotation="-40 25 0" radius-inner="2.5" radius-outer="3.3"></a-ring>
+      <a-ring color="#FF87CA" position="5 1 2.2" rotation="-40 25 0" radius-inner=".8" radius-outer="1.05"></a-ring>
+      <a-ring color="#FF0089" position="5 1 2.2" rotation="-40 25 0" radius-inner=".5" radius-outer="1.06"></a-ring>
+      <a-ring color="#A2BAB8" position="5.4 1.8 3" rotation="-40 25 0" radius-inner=".35" radius-outer=".5"></a-ring>
+
+
+      <a-torus color="black" arc="360" position="0 -10.3 -11" rotation="-42 0 0" radius="8" radius-tubular=".95"></a-torus>
+      <a-dodecahedron color="#0068FF" position="0 -18 -19" radius="14.5" rotation="15 0 0"></a-dodecahedron>
+      <a-dodecahedron color="white" position="0 -21 -23" radius="20" rotation="15 0 0"></a-dodecahedron>
+      <a-dodecahedron color="#547E2C" position="-.5 -21 -23.5" radius="20" rotation="15 0 0"></a-dodecahedron>
+      <a-dodecahedron color="#FF00D5" position="0 -22 -24" radius="20" rotation="15 0 0"></a-dodecahedron>
+      <a-dodecahedron color="pink" position="0 -22 -23" radius="20" rotation="15 0 0"></a-dodecahedron>
+      <a-sphere color="#3B1BA1" radius="16.5" position="0 -23 -22"></a-sphere>
+
+
+      <a-torus color="#DAB628" arc="360" position="10.3 -7.7 -19.4" rotation="-36 78 -24" radius="4" radius-tubular=".4"></a-torus>
+      <a-torus color="#DAB628" arc="360" position="11.3 -7.5 -26" rotation="-36 78 -24" radius="1" radius-tubular=".2"></a-torus>
+      <a-sphere color="#151515" radius="9" position="12 -20 -23"></a-sphere>
+      <a-sphere color="#DAB628" radius="3.5" position="17 -17 -22"></a-sphere>
+      <a-dodecahedron color="#6A7E58" position="12 -20 -23" radius="9.8" rotation="15 0 0"></a-dodecahedron>
+
+      <a-icosahedron color="#2B2A29" position="0 -7.5 -17" radius="5"></a-icosahedron>
+      <a-icosahedron color="#2B2A29" position="4.9 -10 -15" radius="5"></a-icosahedron>
+      <a-icosahedron color="black" position="3 -6 -15" radius="3"></a-icosahedron>
+      <a-icosahedron color="black" position="-3.3 -6.6 -15.4" radius="3.3"></a-icosahedron>
+      <a-icosahedron color="#2B2A29" position="-5 -10 -15" radius="4.5"></a-icosahedron>
+
+
+      <a-assets>
+        <img id="graduationSky2" src="graduationSky2.jpg">
+      </a-assets>
+      <a-sky src="#graduationSky2"></a-sky>
+
+
+      
+    </a-scene>
+  </body>
+</html>
